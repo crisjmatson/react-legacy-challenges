@@ -25,7 +25,7 @@ class DogIndex extends Component {
 			<div>
 				<Card>
 					<Button onClick={() => this.newFetch()}>fetch, dog!</Button>
-					<CardImg top width="70%" src={this.state.url} alt="Card image cap" />
+					<CardImg top width="70%" src={this.state.url} alt="fetching.." />
 				</Card>
 				<br />
 			</div>
